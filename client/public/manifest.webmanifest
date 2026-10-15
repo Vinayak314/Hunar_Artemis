@@ -1,0 +1,11 @@
+{
+  "name": "Hunar - Kaam Bhi, Pehchaan Bhi",
+  "short_name": "Hunar",
+  "description": "Fair local work and a portable work identity for skilled daily-wage workers.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f1e3",
+  "theme_color": "#203b76",
+  "lang": "en",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

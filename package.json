@@ -1,0 +1,20 @@
+{
+  "name": "hunar",
+  "private": true,
+  "description": "Hunar: fair local work and a portable work identity for skilled daily-wage workers.",
+  "scripts": {
+    "install:all": "npm --prefix server ci && npm --prefix client ci",
+    "dev": "node scripts/dev.mjs",
+    "dev:phone": "node scripts/dev.mjs --phone",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build && npm --prefix server run build",
+    "start": "npm --prefix server run start",
+    "check": "npm --prefix server run check",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix client run typecheck",
+    "test": "npm --prefix server test && npm --prefix client test"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}
